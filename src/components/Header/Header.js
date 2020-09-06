@@ -1,0 +1,28 @@
+import React from 'react'
+// import myImage1 from '../../images/Layer 1.png'
+import myImage from '../../images/theImage.svg'
+
+function Header() {
+  return (
+    <div>
+      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+        <img style={{height: "500px"}} className="w-10/12 lg:w-1/2" src={myImage} alt="Client" />
+        <div className="container mx-auto px-8 lg:mx-0">
+          <p className="primaryColor mt-12 lg:mt-0">Hi, Meet</p>
+          <h1 className="py-5 text-6xl font-bold leading-tight">
+            Oluwatobiloba <br />
+            Adelakun
+          </h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+            sed diam nonumyeirmod temporinvidunt ut labore et dolore 
+            magna aliquyam erat, sed diam voluptua. vero eos et accusamet 
+            justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+            noseatakimatasanctus est Lorem</p>
+            <button className="border hover:border-transparent px-12 my-6 py-2 whiteBtn">Get In Touch</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Header

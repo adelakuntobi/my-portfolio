@@ -1,0 +1,49 @@
+.active,nav ul li:hover{
+  color: #00CC6A;
+  border-bottom-color: #00CC6A;
+}
+nav ul li{
+  border-bottom: 2px solid transparent;
+  padding: .5rem;
+}
+.bottomactive{
+  font-size: 5rem;
+}
+.whiteBtn{
+  border-color: #00CC6A;
+}
+.whiteBtn:hover{
+  background-color: #00CC6A;
+  /* font-weight: 00; */
+  color: white;
+}
+.greenBtn{
+  border-color: #00CC6A;
+  background-color: #00CC6A;
+  color: initial;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+.greenBtn:hover{
+  background: initial;
+  border: 1px solid #00CC6A;
+  color: #00CC6A;
+}
+.about hr{
+  border-top-color: #00CC6A;
+}
+.about .skills li{
+  margin: .5rem 0;
+}
+.about .skills li::before{
+  content: "\220E";
+  font-size: .75em;
+  color: #00CC6A;
+  font-weight: 800;
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  margin-left: -.5em;
+  /* margin-top: -2.5em; */
+  /* margin-bottom: -2.5em; */
+}
