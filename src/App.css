@@ -14,8 +14,8 @@ nav ul li{
 }
 .whiteBtn:hover{
   background-color: #00CC6A;
-  /* font-weight: 00; */
-  color: white;
+  font-weight: 600;
+  color: black;
 }
 .greenBtn{
   border-color: #00CC6A;
@@ -46,4 +46,12 @@ nav ul li{
   margin-left: -.5em;
   /* margin-top: -2.5em; */
   /* margin-bottom: -2.5em; */
+}
+
+form input,textarea{
+  border-bottom: 1px solid #ECECEC;
+  outline: none;
+}
+form input:focus{
+  border-bottom: 1px solid white;
 }

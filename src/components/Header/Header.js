@@ -6,10 +6,10 @@ function Header() {
   return (
     <div>
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
-        <img style={{height: "500px"}} className="w-10/12 lg:w-1/2" src={myImage} alt="Client" />
-        <div className="container mx-auto px-8 lg:mx-0">
+        <img className="w-10/12 lg:w-1/2" src={myImage} alt="Client" />
+        <div className="container mx-auto lg:mx-0">
           <p className="primaryColor mt-12 lg:mt-0">Hi, Meet</p>
-          <h1 className="py-5 text-6xl font-bold leading-tight">
+          <h1 className="py-3 lg:py-5 text-4xl lg:text-6xl font-bold leading-tight">
             Oluwatobiloba <br />
             Adelakun
           </h1>

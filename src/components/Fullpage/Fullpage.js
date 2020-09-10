@@ -12,6 +12,8 @@ function Fullpage() {
   return (
     <div>
       <Navbar />
+      <div className="w-11/12 md:w-8/12 lg:w-full mx-auto">
+
         <Switch>
           <Route exact path="/" component={Header}/>
           <Route exact path="/about" component={About}/>
@@ -19,6 +21,7 @@ function Fullpage() {
           <Route path="/contact" component={Contact}/>
           <Redirect to="/" />
         </Switch>
+      </div>
       <Bottomnav />
       <Showcase />
     </div>
