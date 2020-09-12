@@ -1,5 +1,5 @@
 {
-  "short_name": "Tobi",
+  "short_name": "Tobiloba",
   "name": "Adelakun Tobi",
   "icons": [
     {
@@ -20,6 +20,6 @@
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#00CC6A",
   "background_color": "#ffffff"
 }
