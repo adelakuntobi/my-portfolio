@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 // import myImage1 from '../../images/Layer 1.png'
 import myImage from '../../images/theImage.svg'
 
@@ -13,12 +14,14 @@ function Header() {
             Oluwatobiloba <br />
             Adelakun
           </h1>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumyeirmod temporinvidunt ut labore et dolore 
-            magna aliquyam erat, sed diam voluptua. vero eos et accusamet 
-            justo duo dolores et ea rebum. Stet clita kasd gubergren, 
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          sed diam nonumyeirmod temporinvidunt ut labore et dolore
+          magna aliquyam erat, sed diam voluptua. vero eos et accusamet
+          justo duo dolores et ea rebum. Stet clita kasd gubergren,
             noseatakimatasanctus est Lorem</p>
+          <Link to="/contact">
             <button className="border hover:border-transparent px-12 my-6 py-2 whiteBtn">Get In Touch</button>
+          </Link>
         </div>
       </div>
     </div>
