@@ -12,18 +12,19 @@ function Fullpage() {
   return (
     <div>
       <Navbar />
-      <div className="w-11/12 md:w-8/12 lg:w-full mx-auto">
-
-        <Switch>
-          <Route exact path="/" component={Header}/>
-          <Route exact path="/about" component={About}/>
-          <Route exact path="/projects" component={Projects}/>
-          <Route path="/contact" component={Contact}/>
-          <Redirect to="/" />
-        </Switch>
+      <div className="container flex items-center justify-between w-11/12 md:w-8/12 lg:w-11/12 mx-auto">
+        <div>
+            <Switch>
+              <Route exact path="/" component={Header} />
+              <Route exact path="/about" component={About} />
+              <Route exact path="/projects" component={Projects} />
+              <Route path="/contact" component={Contact} />
+              <Redirect to="/" />
+            </Switch>
+        </div>
+        <Showcase />
       </div>
       <Bottomnav />
-      <Showcase />
     </div>
   )
 }

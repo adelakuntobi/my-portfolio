@@ -37,7 +37,7 @@ function Navbar() {
       </nav>
       <div id="myModal" className={isOpen ? "hidden" : "mobile__nav__bg bg-opacity-50 flex"}>
         <div className="mobile__nav">
-          <ul style={{listStyle: "decimal-leading-zero"}} className="p-56">
+          <ul style={{listStyle: "decimal-leading-zero"}} className="">
             <li><NavLink onClick={closeNav} activeClassName="active" exact to="/">Home</NavLink></li>
             <li><NavLink onClick={closeNav} activeClassName="active" to="/about">About </NavLink></li>
             <li><NavLink onClick={closeNav} activeClassName="active" to={{ pathname: "/projects" }}>Projects </NavLink></li>
