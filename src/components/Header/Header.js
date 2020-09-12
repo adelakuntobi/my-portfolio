@@ -6,7 +6,7 @@ import myImage from '../../images/theImage.svg'
 function Header() {
   return (
     <div>
-      <div className="container mx-auto flex flex-col lg:flex-row items-center">
+      <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center" >
         <img className="w-full lg:w-6/12" src={myImage} alt="Client" />
         <div className="container mx-auto lg:mx-0">
           <p className="primaryColor mt-12 lg:mt-0">Hi, Meet</p>
