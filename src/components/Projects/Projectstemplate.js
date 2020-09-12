@@ -1,12 +1,12 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import banner1 from '../../images/landing1.png'
 
-function Projectstemplate() {
-  // library.add(fab, faCheckSquare, faCoffee)
-  // const github = <FontAwesomeIcon icon={faGithub} />
+function Projectstemplate(props) {
+  const {isSlide} = props
   return (
-    <a style={{ width: "25rem" }} className="mx-3 block" rel="noopener noreferrer" href="https://www.github.com" target="_blank">
-      <div style={{ background: "#201F1F" }} className="p-5">
+    <a className="flex flex-row-reverse justify-center mx-0 lg:mx-auto" rel="noopener noreferrer" href="https://www.github.com" target="_blank">
+      <div style={{ background: "#201F1F"}} className={isSlide ? "summary-width p-5" : "lg:w-1/2 summary-width lg:py-12 p-5"}>
         <div className="pb-4 flex justify-between">
           <FontAwesomeIcon icon={['fas', 'code']} size="2x" cursor="pointer" />
           <div className="grid-cols-2 grid gap-5">
@@ -29,6 +29,9 @@ function Projectstemplate() {
           <FontAwesomeIcon icon={['fab', 'sass']} size="1x" cursor="pointer" />
           <FontAwesomeIcon icon={['fab', 'js-square']} size="1x" cursor="pointer" />
         </div>
+      </div>
+      <div style={{ backgroundColor: "#201F1F" }} className={ isSlide? "hidden": "w-1/2 lg:flex hidden justify-center items-center"}>
+        <img src={banner1} alt="banner" className="p-6" />
       </div>
     </a>
   )

@@ -13,7 +13,7 @@ function Fullpage() {
     <div>
       <Navbar />
       <div className="container flex items-center justify-between w-11/12 md:w-8/12 lg:w-11/12 mx-auto">
-        <div>
+        <div className="w-11/12">
           <Switch>
             <Route exact path="/" component={Header} />
             <Route exact path="/about" component={About} />
@@ -22,7 +22,9 @@ function Fullpage() {
             <Redirect to="/" />
           </Switch>
         </div>
-        <Showcase />
+        <div className="w-1/12">
+          <Showcase />
+        </div>
       </div>
       <Bottomnav />
     </div>

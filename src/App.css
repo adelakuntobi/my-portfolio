@@ -29,8 +29,9 @@ nav ul li{
   border: 1px solid #00CC6A;
   color: #00CC6A;
 }
-.about hr{
+hr{
   border-top-color: #00CC6A;
+  width: 60px;
 }
 .about .skills li{
   margin: .5rem 0;
@@ -54,4 +55,31 @@ form input,textarea{
 }
 form input:focus{
   border-bottom: 1px solid white;
+}
+.summary-width{
+  width: 20.5rem;
+}
+.the-hth{
+  height: 40rem;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 3px !important;
+  max-height: 3px;
+  margin: 30px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00CC6A;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #007b40;
 }
