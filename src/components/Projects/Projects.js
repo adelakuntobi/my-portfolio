@@ -34,16 +34,84 @@ function Projects() {
         <div className={isSlide ? "" : "overflow-y-scroll the-hth"}>
           <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" : "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-8 lg:px-0 lg:grid-flow-row"}>
 
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
-            <Projectstemplate isSlide={isSlide} />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="adelakuntobi/weather-forecast"
+            liveLink="tobi11.web.app"
+            title="WTee"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="https://github.com/microapidev/dashboard"
+            liveLink="microapi.dev"
+            title="MircoAPI"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="github.com/hngi/InvoiceGenerator"
+            liveLink="invoice-generator-g1.herokuapp.com/"
+            title="Invoice Generator"
+            description="A website that generates invoices for customer online without any stress." 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="github.com/adelakuntobi/Rock-Paper-Scissors"
+            liveLink="adelakuntobi.github.io/Rock-Paper-Scissors/"
+            title="Rock Paper Scissors"
+            description="A simple Rock Paper Scissors game created with Vanilla JavaScript" 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="https://www.github.com/weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="To Do List"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="https://www.github.com/weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="Shorten URL"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="https://www.github.com/weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="Store Assisto"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="https://www.github.com/weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="Social Media Dashboard"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="Sign Up Form"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="adelakuntobi/unique-portfolio"
+            liveLink="uniqueideas.me"
+            title="Unique Ideas"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+            <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="weather-forecast"
+            liveLink="https://www.tobi11.web.app"
+            title="Sign Up Form"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
+
           </div>
         </div>
       </div>
