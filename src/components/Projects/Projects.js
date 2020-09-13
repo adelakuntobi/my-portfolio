@@ -33,7 +33,13 @@ function Projects() {
         </div>
         <div className={isSlide ? "" : "overflow-y-scroll the-hth"}>
           <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" : "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-8 lg:px-0 lg:grid-flow-row"}>
-
+          <Projectstemplate 
+            isSlide={isSlide}
+            gitLink="adelakuntobi/unique-portfolio"
+            liveLink="uniqueideas.me"
+            title="Unique Ideas"
+            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            />
             <Projectstemplate 
             isSlide={isSlide}
             gitLink="adelakuntobi/weather-forecast"
@@ -64,54 +70,32 @@ function Projects() {
             />
             <Projectstemplate 
             isSlide={isSlide}
-            gitLink="https://www.github.com/weather-forecast"
-            liveLink="https://www.tobi11.web.app"
+            gitLink="github.com/adelakuntobi/To-Do-With-FireBase"
+            liveLink="adelakuntobi.github.io/To-Do-With-FireBase/"
             title="To Do List"
-            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
+            description="A Firebase App that saves to do tasks to a database" 
             />
             <Projectstemplate 
             isSlide={isSlide}
-            gitLink="https://www.github.com/weather-forecast"
-            liveLink="https://www.tobi11.web.app"
+            gitLink="github.com/adelakuntobi/Shorten-url"
+            liveLink="rel.ink/gpwlzw"
             title="Shorten URL"
             description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
             />
             <Projectstemplate 
             isSlide={isSlide}
-            gitLink="https://www.github.com/weather-forecast"
-            liveLink="https://www.tobi11.web.app"
+            gitLink="github.com/adelakuntobi/Store-Assisto"
+            liveLink="store-assisto.herokuapp.com"
             title="Store Assisto"
             description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
             />
             <Projectstemplate 
             isSlide={isSlide}
-            gitLink="https://www.github.com/weather-forecast"
-            liveLink="https://www.tobi11.web.app"
+            gitLink="github.com/adelakuntobi/Social-Media-Dashboard"
+            liveLink="adelakuntobi.github.io/Social-Media-Dashboard/"
             title="Social Media Dashboard"
             description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
             />
-            <Projectstemplate 
-            isSlide={isSlide}
-            gitLink="weather-forecast"
-            liveLink="https://www.tobi11.web.app"
-            title="Sign Up Form"
-            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
-            />
-            <Projectstemplate 
-            isSlide={isSlide}
-            gitLink="adelakuntobi/unique-portfolio"
-            liveLink="uniqueideas.me"
-            title="Unique Ideas"
-            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
-            />
-            <Projectstemplate 
-            isSlide={isSlide}
-            gitLink="weather-forecast"
-            liveLink="https://www.tobi11.web.app"
-            title="Sign Up Form"
-            description="WTee is a weather forecast app which predicts the current and future weather conditions of a certain location " 
-            />
-
           </div>
         </div>
       </div>
