@@ -92,3 +92,8 @@ form input:focus{
   transform: translate(-50%, 0);
   margin: 0;
 }
+@media (max-width: 640px){
+  .summary-width{
+    width: 18rem;
+  }
+}

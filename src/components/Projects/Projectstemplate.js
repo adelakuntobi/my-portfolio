@@ -5,7 +5,7 @@ import banner1 from '../../images/landing1.png'
 function Projectstemplate(props) {
   const {isSlide, gitLink, liveLink, title, description} = props
   return (
-    <div className="flex flex-row-reverse justify-center mx-0 lg:mx-auto" >
+    <div className="flex flex-row-reverse flex-start justify-end md:justify-center mx-0 lg:mx-auto" >
       <div style={{ background: "#201F1F"}} className={isSlide ? "summary-width p-5" : "lg:w-1/2 summary-width lg:py-8 p-5"}>
         <div className="pb-4 flex justify-between">
           <FontAwesomeIcon icon={['fas', 'code']} size="2x" cursor="pointer" />
