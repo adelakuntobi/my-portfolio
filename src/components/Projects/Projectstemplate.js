@@ -15,7 +15,7 @@ function Projectstemplate(props) {
               <FontAwesomeIcon icon={['fab', 'github']} size="1x" />
               <p className="my-2 text-sm font-light">Github</p>
             </a>
-            <a rel="noopener noreferrer" href={"https://www." + liveLink} target="_blank"
+            <a rel="noopener noreferrer" href={"https://" + liveLink} target="_blank"
              className="flex flex-col items-center cursor-pointer">
               <FontAwesomeIcon icon={['fas', 'eye']} size="1x" />
               <p className="my-2 text-sm font-light">Live</p>
