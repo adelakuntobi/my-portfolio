@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import banner1 from '../../images/landing1.png'
 
 function Projectstemplate(props) {
-  const {isSlide, gitLink, liveLink, title, description} = props
+  const {isSlide, gitLink, liveLink, title, description, html5, css3, js, react, sass, php, firebase, show} = props
   return (
     <div className="flex flex-row-reverse flex-start justify-end md:justify-center mx-0 lg:mx-auto" >
       <div style={{ background: "#201F1F"}} className={isSlide ? "summary-width p-5" : "lg:w-1/2 summary-width lg:py-8 p-5"}>
@@ -24,12 +24,14 @@ function Projectstemplate(props) {
         </div>
         <h1 className="text-2xl lg:text-3xl my-2 font-semibold">{title}</h1>
         <p>{description}</p>
-        <div className="mt-12 grid-flow-col grid">
-          <FontAwesomeIcon icon={['fab', 'html5']} size="1x" cursor="pointer" />
-          <FontAwesomeIcon icon={['fab', 'react']} size="1x" cursor="pointer" />
-          <FontAwesomeIcon icon={['fab', 'css3-alt']} size="1x" cursor="pointer" />
-          <FontAwesomeIcon icon={['fab', 'sass']} size="1x" cursor="pointer" />
-          <FontAwesomeIcon icon={['fab', 'js-square']} size="1x" cursor="pointer" />
+        <div className="mt-12 grid-flow-col gap-8 inline-grid">
+          <FontAwesomeIcon icon={['fab', `${react}`]} size="1x" cursor="pointer" />
+          <FontAwesomeIcon icon={['fab',  `${html5}`]} size="1x" cursor="pointer" />
+          <FontAwesomeIcon icon={['fab', `${css3}`]} size="1x" cursor="pointer" />
+          <FontAwesomeIcon icon={['fab', `${sass}`]} size="1x" cursor="pointer" />
+          <FontAwesomeIcon icon={['fab', `${js}`]} size="1x" cursor="pointer" />
+          <FontAwesomeIcon icon={['fab', `${php}`]} size="1x" cursor="pointer" />
+          <img style={{filter: "grayscale(1)"}} className={"w-3" + show} src={firebase} alt="firebase"/>
         </div>
       </div>
       <div style={{ backgroundColor: "#201F1F" }} className={ isSlide? "hidden": "w-1/2 lg:flex hidden justify-center items-center"}>

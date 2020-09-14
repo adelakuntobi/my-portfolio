@@ -16,17 +16,17 @@ function About() {
             <ul>
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <ul>
               <li>C++</li>
-              <li>JQuery</li>
-              <li>Git & GitHub</li>
             </ul>
             <ul>
-              <li>Tailwind & Bootstrap</li>
-              <li>Adobe Lightroom</li>
               <li>PHP</li>
+              <li>Git & GitHub</li>
+              <li>Sass</li>
+            </ul>
+            <ul>
+              <li>ReactJS</li>
+              <li>JavaScript</li>
+              <li>Adobe Lightroom</li>
             </ul>
           </div>
           <button className="border-transparent hover:border my-6 py-2 greenBtn w-full md:w-5/12">

@@ -22,10 +22,11 @@ function Navbar() {
   }
   return (
     <div>
-      <div className="w-full mx-auto h-20">
-        <nav style={{backgroundColor: " #0f0d0df5"}} className={isOpen ? "container mx-auto py-8 flex justify-between" : "container w-full  mx-auto py-8 flex justify-between fixed z-10 navbarstyle"}>
-
+      <div className="w-full pl-3 md:pl-0 mx-auto h-20">
+        <nav style={{backgroundColor: " #0f0d0df5"}} className={isOpen ? "container mx-auto py-8 flex justify-between items-center" : "items-center container w-full  mx-auto py-8 flex justify-between fixed z-10 navbarstyle"}>
+        <NavLink exact to="/">
           <img className="w-48" src={mylogo} alt="Tobi's logo" />
+        </NavLink>
 
 
           {/* <ul className="hidden lg:flex gap-4 items-center text-xl">

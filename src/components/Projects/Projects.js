@@ -22,7 +22,7 @@ function Projects() {
   }
   return (
     <div className="">
-      <div className="container w-full mx-0 my-8">
+      <div className="container w-full px-6">
         <div className="flex justify-between items-center">
           <Heading name="Projects" />
           {
@@ -40,41 +40,24 @@ function Projects() {
               liveLink="tobi11.web.app"
               title="WTee"
               description="A weather forecast app which predicts weather conditions of a certain location "
+              html5="html5" css3="css3-alt" js="js-square" show=" hidden"
             />
+
             <Projectstemplate
               isSlide={isSlide}
               gitLink="adelakuntobi/unique-portfolio"
               liveLink="uniqueideas.me"
               title="Unique Ideas"
-              description="This is a portfolio built for Unique Ideas"
+              description="This is a portfolio website built for Unique Ideas"
+              react="react" css3="css3-alt" show=" hidden"
             />
             <Projectstemplate
               isSlide={isSlide}
               gitLink="https://github.com/microapidev/dashboard"
               liveLink="microapi.dev"
               title="MircoAPI"
-              description="MicroAPI is an API integratio website"
-            />
-            <Projectstemplate
-              isSlide={isSlide}
-              gitLink="github.com/adelakuntobi/Rock-Paper-Scissors"
-              liveLink="adelakuntobi.github.io/Rock-Paper-Scissors/"
-              title="Rock Paper Scissors"
-              description="A simple Rock Paper Scissors game created with Vanilla JavaScript"
-            />
-            <Projectstemplate
-              isSlide={isSlide}
-              gitLink="github.com/adelakuntobi/To-Do-With-FireBase"
-              liveLink="adelakuntobi.github.io/To-Do-With-FireBase/"
-              title="To Do List"
-              description="A Firebase App that saves to do tasks to a database"
-            />
-            <Projectstemplate
-              isSlide={isSlide}
-              gitLink="github.com/adelakuntobi/Shorten-url"
-              liveLink="rel.ink/gpwlzw"
-              title="Shorten URL"
-              description="A website that shorten URLs"
+              description="MicroAPI is an API integration website which provides various API options"
+              sass="sass" html5="html5" js="js-square" show=" hidden"
             />
             <Projectstemplate
               isSlide={isSlide}
@@ -82,13 +65,34 @@ function Projects() {
               liveLink="store-assisto.herokuapp.com"
               title="Store Assisto"
               description="Store Assisto is an app that lets you search for goods in nearby shops"
+              html5="html5" css3="css3-alt" js="js-square" php="php" show=" hidden"
             />
+            <Projectstemplate
+              isSlide={isSlide}
+              gitLink="github.com/adelakuntobi/To-Do-With-FireBase"
+              liveLink="adelakuntobi.github.io/To-Do-With-FireBase/"
+              title="To Do List"
+              description="A Firebase App that saves to do tasks to a database"
+              html5="html5" css3="css3-alt" js="js"
+              firebase="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" show=" block"
+            />
+
+            <Projectstemplate
+              isSlide={isSlide}
+              gitLink="github.com/adelakuntobi/Shorten-url"
+              liveLink="rel.ink/gpwlzw"
+              title="Shortly"
+              description="A website that shorten URLs"
+              html5="html5" css3="css3-alt" js="js-square" show=" hidden"
+            />
+
             <Projectstemplate
               isSlide={isSlide}
               gitLink="github.com/adelakuntobi/Social-Media-Dashboard"
               liveLink="adelakuntobi.github.io/Social-Media-Dashboard/"
               title="Social Media Dashboard"
               description="A basic landing page for a social media accounts of a company"
+              html5="html5" sass="sass" js="js-square" show=" hidden"
             />
           </div>
         </div>
