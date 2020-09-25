@@ -76,7 +76,10 @@ form input:focus {
 .the-hth {
   height: 40rem;
 }
-
+.width{
+  /* width: 70%; */
+  /* margin: auto; */
+}
 
 /* width */
 
@@ -128,25 +131,42 @@ form input:focus {
 
 /* Animation */
 
-.name {
+.name-text {
   background: 50% 100% / 50% 50% no-repeat radial-gradient(ellipse at bottom, #fff, transparent, transparent);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  /* font-size: 10vw; */
-  /* font-family: "Source Sans Pro", sans-serif; */
+  /* font-size: 4.5rem; */
   animation: reveal 3000ms ease-in-out forwards 200ms, glow 2500ms linear infinite 2000ms;
 }
-  @keyframes reveal {
-    80% {
-      letter-spacing: 8px;
-    }
-    100% {
-      background-size: 300% 300%;
-    }
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
   }
-  @keyframes glow {
-    40% {
-      text-shadow: 0 0 8px #fff;
-    }
+  100% {
+    background-size: 300% 300%;
   }
+}
+
+@keyframes glow {
+  40% {
+    text-shadow: 0 0 8px #fff;
+  }
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(-25%);
+    animationTimingFunction: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(0);
+    animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
+  }
+}

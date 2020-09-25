@@ -31,7 +31,7 @@ function Navbar() {
           </NavLink>
 
           <div className="flex ">
-            <ul className={ isOpen ? "hidden " : "lg:flex gap-4 items-center text-xl mx-6"}>
+            <ul className={isOpen ? "hidden " : "hidden lg:flex gap-4 items-center text-xl mx-6"}>
               <li><NavLink onClick={closeNav} activeClassName="active" exact to="/">Home</NavLink></li>
               <li><NavLink onClick={closeNav} activeClassName="active" to="/about">About</NavLink></li>
               <li><NavLink onClick={closeNav} activeClassName="active" to="/projects">Projects</NavLink></li>
@@ -65,6 +65,7 @@ function Navbar() {
             <a rel="noopener noreferrer" href="https://www.twitter.com/larkun_" target="_blank">
               <FontAwesomeIcon icon={['fab', 'twitter']} size="lg" />
             </a>
+
             {/* <FontAwesomeIcon icon="check-square" /> */}
           </div>
         </div>

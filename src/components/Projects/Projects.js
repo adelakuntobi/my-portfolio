@@ -30,7 +30,7 @@ function Projects() {
   return (
 
     <div className="">
-      <div className="container w-full px-6">
+      <div className={"container width w-full px-6"}>
         <div className="flex justify-between items-center">
           <Heading name="Projects" />
           {
@@ -39,8 +39,9 @@ function Projects() {
               <FontAwesomeIcon icon={['fas', 'th']} size="2x" cursor="pointer" onClick={changeView} className="mx-2" />
           }
         </div>
-        <div className={isSlide ? "" : "overflow-y-scroll the-hth"}>
-          <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" : "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-2 md:px-8 lg:px-0 lg:grid-flow-row"}>
+        <div className={isSlide ? "overflow-x-scroll" : "overflow-y-scroll the-hth"}>
+          <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" : 
+          "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-2 md:px-8 lg:px-0 lg:grid-flow-row"}>
             <Projectstemplate
               isSlide={isSlide}
               banner1={microapi}
