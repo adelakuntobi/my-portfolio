@@ -9,8 +9,7 @@ function About() {
       <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center w-full lg:w-11/12">
         <div className="">
           <Heading name="About me" />
-          <p className="my-2">I am a Adelakun Oluwatobiloba, pretty good wit developing, building, and designing web pages, applications across various platforms. </p>
-
+          <p className="my-2">I am a Adelakun Oluwatobiloba, pretty good with developing, building, and designing web pages, applications across various platforms. </p>
           <p className="my-2">In my many years of development, I have acquired skill sets in various project</p>
         
           <h2 className="text-3xl my-5">My Skillsets</h2>
@@ -22,7 +21,7 @@ function About() {
             </ul>
             <ul>
               <li>PHP</li>
-              <li>Git & GitHub</li>
+              <li>GitHub</li>
               <li>Sass</li>
             </ul>
             <ul>

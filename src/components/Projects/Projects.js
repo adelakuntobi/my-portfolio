@@ -30,7 +30,7 @@ function Projects() {
   return (
 
     <div className="">
-      <div className={"container width w-full px-6"}>
+      <div className={"container width w-full px-2 sm:px-6"}>
         <div className="flex justify-between items-center">
           <Heading name="Projects" />
           {
@@ -60,7 +60,7 @@ function Projects() {
               description="Store Assisto is an app that lets you search for goods in nearby shops"
               show=" hidden" react="hidden" sass="hidden"
             />
-            <Projectstemplate
+            {/* <Projectstemplate
               isSlide={isSlide}
               banner1={shortly}
               gitLink="adelakuntobi/Shorten-url"
@@ -69,7 +69,7 @@ function Projects() {
               description="A website that shorten URLs"
               react="hidden" sass="hidden" php="hidden"
               show=" hidden"
-            />
+            /> */}
 
             <Projectstemplate
               isSlide={isSlide}

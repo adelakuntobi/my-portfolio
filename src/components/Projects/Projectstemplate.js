@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Projectstemplate(props) {
   const {banner1, isSlide, gitLink, liveLink, title, description, html5, css3, js, react, sass, php, firebase, show} = props
   return (
-    <div className="flex flex-row-reverse flex-start justify-end md:justify-center mx-0 lg:mx-auto" >
+    <div className="flex flex-row-reverse flex-start justify-end md:justify-center mx-auto" >
       <div style={{ background: "#201F1F"}} className={isSlide ? "summary-width p-5" : "lg:w-1/2 summary-width lg:py-8 p-5"}>
         <div className="pb-3 flex justify-between">
           <FontAwesomeIcon icon={['fas', 'code']} size="2x" cursor="pointer" />

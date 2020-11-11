@@ -3,6 +3,7 @@ import TextareaAutosize from 'react-autosize-textarea'
 import Heading from '../Heading/Heading'
 
 function Contact() {
+
   return (
     <div className="container mx-auto w-full lg:w-11/12">
       <div className="flex flex-col lg:flex-row md:px-4 lg:px-0">
@@ -24,13 +25,12 @@ function Contact() {
           <h2 className="text-4xl font-bold primaryColor lg:text-white">Get In Touch</h2>
           <form className="my-4">
             <div className="flex flex-col lg:flex-row gap-4">
-              <input className="bg-transparent lg:w-6/12 w-full p-2 border-b-1 focus:outline-none focus:shadow-inner" placeholder="Fullname" />
-              <input className="bg-transparent lg:w-6/12 w-full p-2 border-b-1 focus:outline-none focus:shadow-inner" placeholder="Email" />
+              <input required className="bg-transparent lg:w-6/12 w-full p-2 border-b-1 focus:outline-none focus:shadow-inner mb-2" placeholder="Fullname" />
+              <input required className="bg-transparent lg:w-6/12 w-full p-2 border-b-1 focus:outline-none focus:shadow-inner mb-2" placeholder="Email" />
             </div>
-            <TextareaAutosize placeholder="Message" rows={1}
+            <TextareaAutosize required placeholder="Message" rows={1}
               className="bg-transparent my-4 p-2 resize-none h-16 w-full overflow-hidden focus:outline-none focus:shadow-inner" />
-            <button className="border hover:border-transparent px-12 my-6 py-2 whiteBtn focus:outline-none focus:shadow-outline">Send</button>
-
+            <button className="border hover:border-transparent px-16 my-6 py-2 whiteBtn focus:outline-none focus:shadow-outline">Send</button>
           </form>
         </div>
       </div>
