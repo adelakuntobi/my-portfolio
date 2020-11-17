@@ -6,16 +6,16 @@ import Loading from './Loading'
 
 function Contact() {
   
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const sendEmail = (e) => {
     e.preventDefault();
     setLoading(true)
-  //   emailjs.sendForm('gmail2', 'tobi', e.target, 'user_jUIxEF1crTt8lfw5ebKxY')
-  //     .then((result) => {
-  //       console.log(result.text);
-  //     }, (error) => {
-  //       console.log(error.text);
-  //     });
+    emailjs.sendForm('gmail2', 'tobi', e.target, 'user_jUIxEF1crTt8lfw5ebKxY')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
     e.target.reset();
   }
 
