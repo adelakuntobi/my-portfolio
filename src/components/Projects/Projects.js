@@ -7,7 +7,8 @@ import wtee from '../../images/Wtee.jpg'
 import unique from '../../images/unique-ideas.jpg'
 import dashboard from '../../images/dashboard.jpg'
 import microapi from '../../images/microapi.jpg'
-import shortly from '../../images/shortly.jpg'
+import appfleet from '../../images/appfleet.jpg'
+import faydecor from '../../images/faydecor.jpg'
 import where from '../../images/where.jpg'
 import store from '../../images/store-assisto.jpg'
 
@@ -40,8 +41,8 @@ function Projects() {
           }
         </div>
         <div className={isSlide ? "overflow-x-scroll" : "overflow-y-scroll the-hth"}>
-          <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" : 
-          "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-2 md:px-8 lg:px-0 lg:grid-flow-row"}>
+          <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" :
+            "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-2 md:px-8 lg:px-0 lg:grid-flow-row"}>
             <Projectstemplate
               isSlide={isSlide}
               banner1={microapi}
@@ -60,17 +61,25 @@ function Projects() {
               description="Store Assisto is an app that lets you search for goods in nearby shops"
               show=" hidden" react="hidden" sass="hidden"
             />
-            {/* <Projectstemplate
+            <Projectstemplate
               isSlide={isSlide}
-              banner1={shortly}
-              gitLink="adelakuntobi/Shorten-url"
-              liveLink="rel.ink/gpwlzw"
-              title="Shortly"
-              description="A website that shorten URLs"
+              banner1={appfleet}
+              gitLink="adelakuntobi/Appfleet-Landing-Page"
+              liveLink="adelakuntobi.github.io/Appfleet-Landing-Page/"
+              title="Appfleet"
+              description="A clone of the Appfleet landing page"
               react="hidden" sass="hidden" php="hidden"
               show=" hidden"
-            /> */}
-
+            />
+            <Projectstemplate
+              isSlide={isSlide}
+              banner1={faydecor}
+              gitLink="adelakuntobi/interior-decoration"
+              liveLink="faydecor.netlify.app/"
+              title="Faydecor"
+              description="A basic landing page for an interior design company"
+              react="react" sass="sass" show=" hidden" html5="hidden" css3="hidden" php="hidden"
+            />
             <Projectstemplate
               isSlide={isSlide}
               banner1={unique}

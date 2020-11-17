@@ -170,3 +170,36 @@ form input:focus {
     animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
   }
 }
+
+.sent-div{
+  max-width: 30rem;
+  /* max-height: 32rem; */
+}
+.sent-div img{
+  width: 70%;
+  height: 70%;
+
+}
+.closeBtn{
+  right: 1.5rem;
+  top: 1.5rem;
+}
+.closeBtn div, .closeBtn:after {
+  background-color: #fff;
+  content: '';
+  display: block;
+  height: 7px;
+  margin: 3px 0;
+  transition: all .2s ease-in-out;
+  z-index: 30;
+  width: 30px;
+}
+.closeBtn div{
+  transform: rotate(-135deg) translateY(-7.5px);
+}
+
+ .closeBtn::after {
+
+  /* transform: translateX(20px); */
+  transform: rotate(135deg) translateY(7.5px);
+}
