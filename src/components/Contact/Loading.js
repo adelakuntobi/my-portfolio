@@ -8,7 +8,7 @@ function Loading(props) {
   useEffect(() => {
     setTimeout(() => {
       setNone(true)
-    }, 200);
+    }, 6000);
   }, [])
 
   const changeState = () => {
