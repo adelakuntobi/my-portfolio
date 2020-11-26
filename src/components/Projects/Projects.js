@@ -8,6 +8,7 @@ import unique from '../../images/unique-ideas.jpg'
 import dashboard from '../../images/dashboard.jpg'
 import microapi from '../../images/microapi.jpg'
 import appfleet from '../../images/appfleet.jpg'
+import FindIt from '../../images/FindIt.jpg'
 import faydecor from '../../images/faydecor.jpg'
 import where from '../../images/where.jpg'
 import store from '../../images/store-assisto.jpg'
@@ -43,7 +44,7 @@ function Projects() {
         <div className={isSlide ? "overflow-x-scroll" : "overflow-y-scroll the-hth"}>
           <div className={isSlide ? "grid grid-flow-col grid-rows-2 gap-4 overflow-x-scroll" :
             "overflow-x-hidden mx-auto lg:gap-10 gap-6 grid-rows-2 grid lg:w-9/12 px-2 md:px-8 lg:px-0 lg:grid-flow-row"}>
-            <Projectstemplate
+            {/* <Projectstemplate
               isSlide={isSlide}
               banner1={microapi}
               gitLink="microapidev/dashboard"
@@ -51,6 +52,15 @@ function Projects() {
               title="MircoAPI"
               description="MicroAPI is an API integration website which provides various API options"
               show=" hidden" css3="hidden" php="hidden" react="hidden"
+            /> */}
+            <Projectstemplate
+              isSlide={isSlide}
+              banner1={FindIt}
+              gitLink="adelakuntobi/fxnigeria"
+              liveLink="fxnigeria.netlify.app"
+              title="FindIt"
+              description="An E-Commerce website"
+              react="react" sass="sass" show=" hidden" html5="hidden" css3="hidden" php="hidden"
             />
             <Projectstemplate
               isSlide={isSlide}
