@@ -56,8 +56,8 @@ function Projects() {
             <Projectstemplate
               isSlide={isSlide}
               banner1={FindIt}
-              gitLink="adelakuntobi/fxnigeria"
-              liveLink="fxnigeria.netlify.app"
+              gitLink="adelakuntobi/findit"
+              liveLink="finditstore.netlify.app"
               title="FindIt"
               description="An E-Commerce website"
               react="react" sass="sass" show=" hidden" html5="hidden" css3="hidden" php="hidden"
