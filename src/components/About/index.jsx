@@ -31,7 +31,7 @@ function About() {
           </div>
           <button className="border-transparent hover:border my-6 py-2 greenBtn w-full md:w-5/12">
             <a target="_blank" rel="noopener noreferrer"
-             href="https://drive.google.com/file/d/1AalirNg0ltyogbg5yWTqy4BD8vND8-wG/view?usp=sharing">
+             href="https://drive.google.com/file/d/17izRA-ML71j2BuC8Z8qVxPqdjc1hG1fn/view?usp=sharing">
           <FontAwesomeIcon icon={['fas', 'download']} className="mx-2" />
             Download CV
             </a>
