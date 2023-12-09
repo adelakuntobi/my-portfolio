@@ -16,10 +16,10 @@ function Navbar() {
     }
   }
   return (
-    <div>
+    <>
       <div className="w-full pl-3 md:pl-0 mx-auto h-20">
         <nav style={{ backgroundColor: " #0f0d0df5" }} className={isOpen ?
-          "container mx-auto py-8 flex justify-between items-center" :
+          "container mx-auto py-8 w-full flex justify-between items-center" :
           "items-center container w-full  mx-auto py-8 flex justify-between fixed z-10 navbarstyle"}>
           <NavLink exact to="/">
             <img className="w-48" src={mylogo} alt="Tobi's logo" />
@@ -65,7 +65,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 

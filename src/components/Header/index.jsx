@@ -8,7 +8,7 @@ function Header() {
     <img className="w-full mx-auto lg:mx-8 lg:w-6/12" src={myImage} alt="Client" />
         <div className="relative container mx-auto my- lg:mx-0">
           <p className="primaryColor mt-12 lg:mt-0">Hi, Meet</p>
-          <h1 className="name-text text-4xl sm:text-5xl lg:text-6xl lg:-ml-20 font-bold leading-tight md:leading-snug">
+          <h1 className="name-text text-4xl sm:text-5xl lg:text-6xl lg:-ml-20 font-bold !leading-tight md:!leading-snug">
             Oluwatobiloba <br />
             Adelakun
           </h1>

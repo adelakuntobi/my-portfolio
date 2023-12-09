@@ -5,12 +5,15 @@ import App from './App.jsx';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import ScrollToTop from './components/Scroll/ScrollToTop';
+import React from 'react';
 const root = createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter>
     <ScrollToTop>
+    <React.StrictMode>
       <App />
+    </React.StrictMode>
     </ScrollToTop>
   </BrowserRouter>
 );
