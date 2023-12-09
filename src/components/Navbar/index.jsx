@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import mylogo from '../../images/mylogo.svg'
 import { NavLink } from 'react-router-dom'
 import '../../css/Navbar.css'
@@ -8,16 +8,11 @@ function Navbar() {
 
   const [isOpen, setisOpen] = useState(true)
   const closeNav = () => {
-
     if (isOpen === true) {
-      setisOpen(
-        Opennav => Opennav = false
-      )
+      setisOpen(false)
     }
     else {
-      setisOpen(
-        Opennav => Opennav = true
-      )
+      setisOpen(true)
     }
   }
   return (
@@ -70,7 +65,7 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

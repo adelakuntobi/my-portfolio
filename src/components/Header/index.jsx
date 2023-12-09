@@ -1,6 +1,4 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-// import myImage1 from '../../images/Layer 1.png'
 import myImage from '../../images/header.svg'
 
 function Header() {

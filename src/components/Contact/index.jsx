@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import TextareaAutosize from 'react-autosize-textarea'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading'
 import emailjs from 'emailjs-com'
 import Loading from './Loading'
 

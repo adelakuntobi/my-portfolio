@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import React from 'react'
 import myImage from '../../images/theImage.svg'
-import Heading from '../Heading/Heading'
+import Heading from '../Heading'
 
 function About() {
   return (
